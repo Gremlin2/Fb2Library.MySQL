@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fb2Library.MySql", "Fb2LibraryMySql\Fb2Library.MySql.csproj", "{2C5F9C42-C4EE-45E4-823F-F7CC4DCE37B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fb2Library.MySqlTests", "Fb2LibraryMySqlTests\Fb2Library.MySqlTests.csproj", "{F3459BA8-421E-484D-B55F-D3B2F08232BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C5F9C42-C4EE-45E4-823F-F7CC4DCE37B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C5F9C42-C4EE-45E4-823F-F7CC4DCE37B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C5F9C42-C4EE-45E4-823F-F7CC4DCE37B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C5F9C42-C4EE-45E4-823F-F7CC4DCE37B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3459BA8-421E-484D-B55F-D3B2F08232BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3459BA8-421E-484D-B55F-D3B2F08232BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3459BA8-421E-484D-B55F-D3B2F08232BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3459BA8-421E-484D-B55F-D3B2F08232BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
