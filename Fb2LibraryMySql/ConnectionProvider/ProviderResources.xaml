@@ -1,5 +1,19 @@
 ﻿<ResourceDictionary x:Class="Fb2Library.MySql.ConnectionProvider.ProviderResources"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:p="clr-namespace:Fb2Library.MySql.ConnectionProvider">
+
+    <DataTemplate x:Key="RecentItemContentTemplate" DataType="{x:Type p:MySqlConnectionSettings}">
+        <StackPanel Width="Auto" Orientation="Horizontal">
+            <Border Width="32" Height="32" Margin="0,0,15,0" >
+                <Image HorizontalAlignment="Center"  Height="24" VerticalAlignment="Center" Width="24" SnapsToDevicePixels="true" Source="pack://application:,,,/Fb2Library.MySql;Component/Images/cocoa-mysql-24.png"/>
+            </Border>
+
+            <TextBlock VerticalAlignment="Center">
+                <TextBlock Foreground="Black" FontSize="12" Text="{Binding Database}"/>
+                <LineBreak/>
+                <TextBlock Foreground="DimGray" FontSize="12" Text="{Binding ServerName}"/>
+            </TextBlock>
+        </StackPanel>
+    </DataTemplate>
 </ResourceDictionary>

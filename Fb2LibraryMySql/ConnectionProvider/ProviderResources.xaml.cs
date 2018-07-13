@@ -1,3 +1,4 @@
+using System.ComponentModel.Composition;
 using System.Windows;
 
 namespace Fb2Library.MySql.ConnectionProvider
@@ -11,5 +12,14 @@ namespace Fb2Library.MySql.ConnectionProvider
         {
             InitializeComponent();
         }
-	}
+    
+        [Export("RecentItemsTabControl.DataTemplates")]
+        public DataTemplate RecentItemContentTemplate
+        {
+            get
+            {
+                return (DataTemplate)this["RecentItemContentTemplate"];
+            }
+        }
+    }
 }

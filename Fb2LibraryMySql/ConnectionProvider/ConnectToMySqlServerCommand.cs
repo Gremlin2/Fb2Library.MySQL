@@ -6,7 +6,7 @@ using Fb2Library.Commands;
 
 namespace Fb2Library.MySql.ConnectionProvider
 {
-    [ExportCommand("Fb2Library.ConnectToDbMenu", LabelTitle = "MySQL Server")]
+    [ExportCommand("Fb2Library.ConnectToDbMenu", LabelTitle = "MySQL Server", LargeImageSource = "pack://application:,,,/Fb2Library.MySql;Component/Images/cocoa-mysql-24.png")]
     public class ConnectToMySqlServerCommand : LibraryCommand, IBackstageTab
     {
         public ConnectToMySqlServerCommand()
