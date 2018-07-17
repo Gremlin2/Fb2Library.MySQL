@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fb2Library.MySql", "Fb2Libr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fb2Library.MySqlTests", "Fb2LibraryMySqlTests\Fb2Library.MySqlTests.csproj", "{F3459BA8-421E-484D-B55F-D3B2F08232BC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{83A011BE-B67D-4477-AC51-ABED65CFD785}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
