@@ -16,4 +16,11 @@
             </TextBlock>
         </StackPanel>
     </DataTemplate>
+
+    <DataTemplate x:Key="DatabaseInfoTemplate" DataType="{x:Type p:MySqlDatabaseInfoViewModel}">
+    </DataTemplate>
+
+    <DataTemplate x:Key="DatabaseInfoCommandsTemplate" DataType="{x:Type p:MySqlDatabaseInfoViewModel}">
+    </DataTemplate>
+
 </ResourceDictionary>

@@ -21,5 +21,23 @@ namespace Fb2Library.MySql.ConnectionProvider
                 return (DataTemplate)this["RecentItemContentTemplate"];
             }
         }
+
+        [Export("DatabaseInfoView.DataTemplates")]
+        public DataTemplate DatabaseInfoTemplate
+        {
+            get
+            {
+                return (DataTemplate)this["DatabaseInfoTemplate"];
+            }
+        }
+
+        [Export("DatabaseInfoView.Commands.DataTemplates")]
+        public DataTemplate DatabaseInfoCommandsTemplate
+        {
+            get
+            {
+                return (DataTemplate)this["DatabaseInfoCommandsTemplate"];
+            }
+        }
     }
 }

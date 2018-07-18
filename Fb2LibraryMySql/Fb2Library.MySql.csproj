@@ -91,6 +91,7 @@
     <Compile Include="ConnectionProvider\MySqlConnectionFactory.cs" />
     <Compile Include="ConnectionProvider\MySqlConnectionSettings.cs" />
     <Compile Include="ConnectionProvider\MySqlConnectionSettingsViewModel.cs" />
+    <Compile Include="ConnectionProvider\MySqlDatabaseInfoViewModel.cs" />
     <Compile Include="ConnectionProvider\MySqlDataProvider.cs" />
     <Compile Include="ConnectionProvider\MySqlInitialMigration.cs" />
     <Compile Include="ConnectionProvider\MySqlMigrationGenerator.cs" />
